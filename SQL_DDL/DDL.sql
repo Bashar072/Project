@@ -10,7 +10,7 @@
 Students | CREATE TABLE `Students` (
   `Pid` varchar(20) NOT NULL,
   `Email` varchar(40) NOT NULL,
-  `Dept_name` varchar(20) NOT NULL,
+  `Dept_Code` varchar(20) NOT NULL,
   `Course_Name` varchar(40) NOT NULL,
   `CGPA` float(4,2) DEFAULT NULL,
   `Semester` int(3) DEFAULT NULL,
